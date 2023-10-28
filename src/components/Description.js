@@ -1,4 +1,4 @@
-// import "";
+import photo from './../Photograph_AthiraPK.jpg';
 export default function Description(props) {
   const styleSpeakers = {
     flex: 1,
@@ -129,7 +129,7 @@ export default function Description(props) {
           </div>
         </ul>
         <h4>Industry Speakers</h4>
-        <ul>
+        <ul style={{ listStyleType: 'none' }}>
           <div
             style={{
               display: "flex",
@@ -144,7 +144,7 @@ export default function Description(props) {
             <li style={styleSpeakers}>
               <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg"
+                  src={photo}
                   height="200"
                   alt=""
                 ></img>
