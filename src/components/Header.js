@@ -21,13 +21,15 @@ export default function Header() {
             <h4 class="large-heading event-title">Symposium on Rheology</h4>
             <h5 class="md-heading event-date">November 25, 2023, Saturday</h5> */}
             <div style={{display:"flex", marginTop:'2vh',justifyContent:"center"}}>
-                <a href="#" style={{marginRight:50}}>
+                <a href="#" style={{marginRight:'10vw',maxWidth:'40vw'}}>
                     <img src="https://www.iitpkd.ac.in/sites/default/files/styles/width_scale/public/2023-08/SahyadriA0.jpg?itok=MmEKHU02" height="200" />
+                    <figcaption style={{fontSize:'1rem', display:'flex', justifyContent:'center'}}><a href="https://iitpkd.ac.in/">Saraswati Block, IIT Palakkad</a></figcaption>
+
                 </a>
                 <a href="#">
                     <figure>
-                        <img src="https://www.anton-paar.com/fileadmin/_processed_/5/f/csm_MCR-702e_perspective_4a2978092c.jpg" height="200" />
-                        <figcaption style={{fontSize:'0.5rem'}}class="image-caption">Credit: https://www.anton-paar.com/</figcaption>
+                        <img style={{marginRight:'10vw',maxWidth:'40vw'}} src="https://www.anton-paar.com/fileadmin/_processed_/5/f/csm_MCR-702e_perspective_4a2978092c.jpg" height="200" />
+                        <figcaption style={{fontSize:'0.8rem'}}class="image-caption"><a href="https://www.anton-paar.com/corp-en/products/details/rheometer-mcr-702-multidrive/?utm_source=google&utm_medium=cpc&utm_campaign=HQ_BC.RHEO_EN&utm_content=C-00055607&gad=1&gclid=EAIaIQobChMIqOqEs7igggMVXqhmAh2uEQzOEAAYASAAEgKhPvD_BwE">Anton Paar MCR 702e Rheometer</a></figcaption>
                     </figure>
 
                 </a>

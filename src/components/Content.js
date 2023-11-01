@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 export default function Content() {
+    console.log("Latest build deployed 3");
     const activeLinkStyle = {
   backgroundColor: '#4285f4', // Google blue
   color: '#fff', // White text
@@ -17,32 +18,32 @@ export default function Content() {
     return (
         <ul className="nav nav-pills nav-fill bg-secondary bg-gradient" role="group" aria-label="Basic example">
             <li className="nav-item border border-2 p-2">
-                <NavLink exact to="/" activeClassName="active-link" className="text-white">
+                <NavLink exact to="/rheo/" activeClassName="active-link" className="text-white">
                     Description
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/participant" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/participant" activeClassName="active-link" className="text-white">
                     Speakers
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/program" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/program" activeClassName="active-link" className="text-white">
                     Program
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/abstract" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/abstract" activeClassName="active-link" className="text-white">
                     Abstract
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/document" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/document" activeClassName="active-link" className="text-white">
                     Posters
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/participants" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/participants" activeClassName="active-link" className="text-white">
                     Participants
                 </NavLink>
             </li>

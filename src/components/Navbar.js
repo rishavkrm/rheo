@@ -7,7 +7,6 @@ export default function Navbar() {
           <div style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
             <img
               src={bannerImage}
-              className="img-fluid"
               alt=""
               style={{width:'100vw'}}
             />

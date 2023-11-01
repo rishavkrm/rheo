@@ -9,7 +9,6 @@ import Register from './components/Register';
 
 
 function App() {
-
   return (
     <>
       <Router basename="/">
@@ -17,12 +16,12 @@ function App() {
         <Header />
         <Content />
         <Routes>
-          <Route path="/" element={<Description url="desc" />}></Route>
-          <Route path="/participant" element={<Description url="part" />}></Route>
-          <Route path="/program" element={<Description url="program" />}></Route>
-          <Route path="/abstract" element={<Description url="abstract" />}></Route>
-          <Route path="/document" element={<Description url="doc" />}></Route>
-          <Route path="/participants" element={<Description url="participants" />}></Route>
+          <Route path="/rheo/" element={<Description url="desc" />}></Route>
+          <Route path="/rheo/participant" element={<Description url="part" />}></Route>
+          <Route path="/rheo/program" element={<Description url="program" />}></Route>
+          <Route path="/rheo/abstract" element={<Description url="abstract" />}></Route>
+          <Route path="/rheo/document" element={<Description url="doc" />}></Route>
+          <Route path="/rheo/participants" element={<Description url="participants" />}></Route>
         </Routes>
         <Footer />
       </Router>

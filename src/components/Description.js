@@ -9,7 +9,10 @@ export default function Description(props) {
   }
   if (props.url === "desc") {
     return (
-      <div class="container py-5">
+      <div style={{
+        display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '2vw', border: 2, textAlign: 'justify',
+        textJustify: 'inter-word'
+      }}>
         <p style={{ fontSize: '1.5rem' }}>
           Embark on a captivating journey into the world of Rheology, inspired
           by the age-old concept of "Panta Rei," signifying that with time,
@@ -25,27 +28,29 @@ export default function Description(props) {
           scientific innovation.
         </p>
         <h4>Event details </h4>
-        <li style={{ fontSize: '1.3rem' }}>
+        <p style={{ fontSize: '1.3rem' }}>
           Venue :<a href="https://iitpkd.ac.in/nila-campus"> Nila Campus, IIT Palakkad</a>
-
-        </li>
+        </p>
+        <p></p>
         <h4>Important dates</h4>
-        <li style={{ fontSize: '1.3rem' }}>
+        <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>
           Application Deadline : 15th November 2023
         </li>
-        <li style={{ fontSize: '1.3rem' }}>
+        <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>
           Announcement of selected participants : 20th November 2023
         </li>
-        <li style={{ fontSize: '1.3rem' }}>
+        <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>
           Registration fee deadline (for selected parcticipants) : on or before 25th November 2023
         </li>
         {/* <li style={{fontSize:'1.5 rem'}}>
           Poster abs deadline : 15th November
         </li> */}
+        <p></p>
+        <p></p>
         <h4>Coordinators</h4>
         <ul>
-          <li style={{ fontSize: '1.3rem' }}>Dr. Veena Venudharan, Department of Civil Engineering</li>
-          <li style={{ fontSize: '1.3rem' }}>Dr. Vishwas V, Department of Physics</li>
+          <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>Dr. Veena Venudharan, Department of Civil Engineering</li>
+          <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>Dr. Vishwas V, Department of Physics</li>
         </ul>
       </div>
     );
@@ -74,8 +79,8 @@ export default function Description(props) {
                 ></img>
                 <br />
                 <h6>Prof. Abhijit P. Deshpande</h6>
-                <h6>IIT Madras</h6>
-                <a href="https://che.iitm.ac.in/abhijit/">Click here</a>
+
+                <a href="https://che.iitm.ac.in/abhijit/"><h6>IIT Madras</h6></a>
               </div>
 
             </li>
@@ -89,8 +94,8 @@ export default function Description(props) {
                 ></img>
                 <br />
                 <h6>Prof. Murali Krishnan J.</h6>
-                <h6>IIT Madras</h6>
-                <a href="https://civil.iitm.ac.in/faculty/jmk/">Click here</a>
+
+                <a href="https://civil.iitm.ac.in/faculty/jmk/"><h6>IIT Madras</h6></a>
 
               </div>
 
@@ -104,8 +109,8 @@ export default function Description(props) {
                   height="200"
                   alt="https://www.iittp.ac.in/dr-a-v-rahul"
                 ></img><br></br>
-                <h6>Dr. Rahul A. V.</h6> <h6>IIT Tirupati</h6>
-                <a href="">Click here</a>
+                <h6>Dr. Rahul A. V.</h6>
+                <a href="https://www.iittp.ac.in/dr-a-v-rahul">IIT Tirupati</a>
               </div>
 
 
@@ -119,8 +124,7 @@ export default function Description(props) {
                   alt=""
                 ></img><br></br>
                 <h6>Dr. Sayantan Majumdar</h6>
-                <h6>RRI Bengaluru</h6>
-                <a href="https://www.rri.res.in/people/faculty/sayantan-majumdar">Click here</a>
+                <a href="https://www.rri.res.in/people/faculty/sayantan-majumdar">RRI Bengaluru</a>
 
               </div>
 
@@ -151,8 +155,8 @@ export default function Description(props) {
                 <br />
                 <h6>Dr. Athira P.K.</h6>
                 <h6>Application scientist for rheology</h6>
-                <h6>Anton Paar,Mumbai </h6>
-                <a href="https://in.linkedin.com/in/athira-perilakalathil-ph-d-62b16856?trk=public_profile_like_view_actor-name">Click here</a>
+
+                <a href="https://in.linkedin.com/in/athira-perilakalathil-ph-d-62b16856?trk=public_profile_like_view_actor-name"><h6>Anton Paar,Mumbai </h6></a>
               </div>
 
             </li>
