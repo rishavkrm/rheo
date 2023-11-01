@@ -16,34 +16,34 @@ export default function Content() {
   cursor: 'pointer',
 };
     return (
-        <ul className="nav nav-pills nav-fill bg-secondary bg-gradient" role="group" aria-label="Basic example">
+        <ul className="nav nav-pills nav-fill bg-secondary" role="group" aria-label="Basic example">
             <li className="nav-item border border-2 p-2">
-                <NavLink exact to="/rheo/" activeClassName="active-link" className="text-white">
+                <NavLink exact to="/rheo/" style={{fontSize:'2vh'}} className="text-white">
                     Description
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/rheo/participant" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/participant" style={{fontSize:'2vh'}} className="text-white">
                     Speakers
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/rheo/program" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/program" style={{fontSize:'2vh'}} className="text-white">
                     Program
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/rheo/abstract" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/abstract" style={{fontSize:'2vh'}} className="text-white">
                     Abstract
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/rheo/document" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/document" style={{fontSize:'2vh'}} className="text-white">
                     Posters
                 </NavLink>
             </li>
             <li className="nav-item border border-2 p-2">
-                <NavLink to="/rheo/participants" activeClassName="active-link" className="text-white">
+                <NavLink to="/rheo/participants" style={{fontSize:'2vh'}} className="text-white">
                     Participants
                 </NavLink>
             </li>

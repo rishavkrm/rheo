@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 export default function Header() {
     const buttonStyle = {
-        backgroundColor: '#4285f4', // Google blue
+        backgroundColor: '#6b7580', // Google blue
         color: '#fff', // White text
         border: 'none',
         padding: '10px 20px',
@@ -9,14 +9,14 @@ export default function Header() {
         textAlign: 'center',
         textDecoration: 'none',
         display: 'inline-block',
-        fontSize: '16px',
+        fontSize: '2vh',
         margin: '10px 2px',
         cursor: 'pointer',
     };
     return (
         <div>
-            <div style={{display:"flex", margin:"20",justifyContent:"center"}}>
             <div >
+            <div>
             {/* <h1 class="small-heading event-type">Exploring Complex Material Flows</h1>
             <h4 class="large-heading event-title">Symposium on Rheology</h4>
             <h5 class="md-heading event-date">November 25, 2023, Saturday</h5> */}

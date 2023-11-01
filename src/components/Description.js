@@ -10,10 +10,10 @@ export default function Description(props) {
   if (props.url === "desc") {
     return (
       <div style={{
-        display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '2vw', border: 2, textAlign: 'justify',
+        display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '2vh', border: 2, textAlign: 'justify',
         textJustify: 'inter-word'
       }}>
-        <p style={{ fontSize: '1.5rem' }}>
+        <p style={{ fontSize: '2.4vh' }}>
           Embark on a captivating journey into the world of Rheology, inspired
           by the age-old concept of "Panta Rei," signifying that with time,
           everything flows. Delve into the science of studying material flow and
@@ -27,37 +27,35 @@ export default function Description(props) {
           advancements, and witness the powerful impact of Rheology on
           scientific innovation.
         </p>
-        <h4>Event details </h4>
-        <p style={{ fontSize: '1.3rem' }}>
+        <h4 style={{ fontSize: '2.4vh' }}>Event details </h4>
+        <p style={{ fontSize: '2vh' }}>
           Venue :<a href="https://iitpkd.ac.in/nila-campus"> Nila Campus, IIT Palakkad</a>
         </p>
         <p></p>
-        <h4>Important dates</h4>
-        <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>
+        <h4 style={{ fontSize: '2.4vh' }}>Important dates</h4>
+        <li style={{ fontSize: '2vh', listStyleType: 'none' }}>
           Application Deadline : 15th November 2023
         </li>
-        <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>
+        <li style={{ fontSize: '2vh', listStyleType: 'none' }}>
           Announcement of selected participants : 20th November 2023
         </li>
-        <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>
+        <li style={{ fontSize: '2vh', listStyleType: 'none' }}>
           Registration fee deadline (for selected parcticipants) : on or before 25th November 2023
         </li>
-        {/* <li style={{fontSize:'1.5 rem'}}>
+        {/* <li style={{fontSize:'1.5 vh'}}>
           Poster abs deadline : 15th November
         </li> */}
         <p></p>
         <p></p>
-        <h4>Coordinators</h4>
-        <ul>
-          <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>Dr. Veena Venudharan, Department of Civil Engineering</li>
-          <li style={{ fontSize: '1.3rem', listStyleType: 'none' }}>Dr. Vishwas V, Department of Physics</li>
-        </ul>
+        <h4 style={{ fontSize: '2.4vh' }}>Coordinators</h4>
+          <li style={{ fontSize: '2vh', listStyleType: 'none' }}>Dr. Veena Venudharan, Department of Civil Engineering</li>
+          <li style={{ fontSize: '2vh', listStyleType: 'none' }}>Dr. Vishwas V, Department of Physics</li>
       </div>
     );
   } else if (props.url === "part") {
     return (
       <div class="container py-5">
-        <h4>Academia Speakers</h4>
+        <center><h4 style={{ fontSize: '3vh' }}>Academia Speakers</h4></center>
         <ul style={{ listStyleType: 'none' }}>
           <div
             style={{
@@ -74,7 +72,7 @@ export default function Description(props) {
               <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                 <img
                   src="https://che.iitm.ac.in/wp-content/uploads/2021/07/Dr.-Abhijit-P.-Deshpande.jpg"
-                  height="200"
+                  height="100vh"
                   alt=""
                 ></img>
                 <br />
@@ -89,7 +87,7 @@ export default function Description(props) {
 
                 <img
                   src="https://civil.iitm.ac.in/faculty/jmk/admin/download/Murali_Krishnan31.jpg"
-                  height="200"
+                  height="100vh"
                   alt=""
                 ></img>
                 <br />
@@ -106,7 +104,7 @@ export default function Description(props) {
 
                 <img
                   src="https://media.licdn.com/dms/image/C5103AQGTcYFLD-3SoQ/profile-displayphoto-shrink_800_800/0/1579113104112?e=2147483647&v=beta&t=uRtGPh95uB2aLi_I2HHrJmD_uFIS0YTNBNPtk9VlGSE"
-                  height="200"
+                  height="100vh"
                   alt="https://www.iittp.ac.in/dr-a-v-rahul"
                 ></img><br></br>
                 <h6>Dr. Rahul A. V.</h6>
@@ -120,7 +118,7 @@ export default function Description(props) {
 
                 <img
                   src="https://www.rri.res.in/sites/default/files/2022-05/HSC_0022.jpg"
-                  height="200"
+                  height="100vh"
                   alt=""
                 ></img><br></br>
                 <h6>Dr. Sayantan Majumdar</h6>
@@ -132,7 +130,7 @@ export default function Description(props) {
             </li>
           </div>
         </ul>
-        <h4>Industry Speakers</h4>
+        <center><h4 style={{ fontSize: '3vh' }}>Industry Speakers</h4></center>
         <ul style={{ listStyleType: 'none' }}>
           <div
             style={{
@@ -149,7 +147,7 @@ export default function Description(props) {
               <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                 <img
                   src={photo}
-                  height="200"
+                  height="100vh"
                   alt=""
                 ></img>
                 <br />
@@ -165,7 +163,7 @@ export default function Description(props) {
 
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg"
-                  height="200"
+                  height="100vh"
                   alt=""
                 ></img>
                 <br />
@@ -188,7 +186,7 @@ export default function Description(props) {
         <div>
           {/* <h2>25th November, 2023, Nila Campus</h2>
 
-          <h4>Morning session</h4>
+          <h4 style={{ fontSize: '2vh' }}>Morning session</h4>
           <ul>
             <li>
               09:15 to 09:45 - Commencement and Inauguration of the facility{" "}
@@ -205,9 +203,9 @@ export default function Description(props) {
             </li>
           </ul> */}
 
-          {/* <h4>Lunch and Poster Session - 13:00 to 14:00</h4>
+          {/* <h4 style={{ fontSize: '2vh' }}>Lunch and Poster Session - 13:00 to 14:00</h4>
 
-          <h4>Afternoon session</h4>
+          <h4 style={{ fontSize: '2vh' }}>Afternoon session</h4>
           <ul>
             <li>14:00 to 14:30 - Industry Speaker - Title </li>
             <li>14:30 to 15:00 - Industry Speaker - Title</li>
@@ -216,16 +214,16 @@ export default function Description(props) {
             </li>
           </ul> */}
 
-          {/* <h4>Lab Visit and Demonstration - 15:30 to 17:30</h4> */}
+          {/* <h4 style={{ fontSize: '2vh' }}>Lab Visit and Demonstration - 15:30 to 17:30</h4> */}
         </div>
 
-        <h4>To be announced soon</h4>
+        <h4 style={{ fontSize: '2vh' }}>To be announced soon</h4>
       </div>
     );
   } else if (props.url === "abstract") {
     return (
       <div class="container py-5">
-        <h4>To be announced soon</h4>
+        <h4 style={{ fontSize: '2vh' }}>To be announced soon</h4>
         {/* <ul>
           <li>
             XX/11/2023
@@ -263,7 +261,7 @@ export default function Description(props) {
     return (
       <div class="container py-5">
         <div>
-          <h4>Shortlisted posters will be announced by 20th November 2023</h4>
+          <h4 style={{ fontSize: '2vh' }}>Shortlisted posters will be announced by 20th November 2023</h4>
 
           {/* <ul>
             <li>1-Presenter-Poster Title</li>
@@ -284,7 +282,7 @@ export default function Description(props) {
     return (
       <div class="container py-5">
         <div>
-          <h4>Participants list will be announced by 20th November 2023</h4>
+          <h4 style={{ fontSize: '2vh' }}>Participants list will be announced by 20th November 2023</h4>
           {/* <ul>
             <li>Partipant - 1</li>
             <li>Partipant - 2</li>
